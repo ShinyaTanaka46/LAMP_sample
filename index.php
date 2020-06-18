@@ -1,5 +1,5 @@
 <?php
-$dsn = 'mysql:dbname=shinya;localhost;';
+$dsn = 'mysql:dbname=sample_db;localhost;';
 $user = 'shinya';
 $password = 'morijyobi';
 try {
@@ -7,7 +7,7 @@ try {
     
     $sql = "select * from user";
     $result = $dbh->query($sql);
-    
+
 } catch (PDOException $e) {
     echo "接続失敗: " . $e->getMessage() . "\n";
     exit();

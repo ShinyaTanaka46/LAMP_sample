@@ -78,7 +78,22 @@ try {
                 </table>
             </div>
             <div id="tab2" class="tab-pane">
-                sample2
+                <form class="mt-5" action="./insert.php" method="POST">
+                    <div class="form-group">
+                        <label for="id">ID</label>
+                        <input class="form-control" type="text" name="id" id="id">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">NAME</label>
+                        <input class="form-control" type="text" name="name" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="age">AGE</label>
+                        <input class="form-control" type="text" name="age" id="age">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Insert</button>
+                </form>
             </div>
             <div id="tab3" class="tab-pane">
                 sample3

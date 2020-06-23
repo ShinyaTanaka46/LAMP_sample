@@ -81,15 +81,15 @@ try {
                 <form class="mt-5" action="./insert.php" method="POST">
                     <div class="form-group">
                         <label for="id">ID</label>
-                        <input class="form-control" type="text" name="id" id="id">
+                        <input class="form-control" type="text" name="id" id="id" required>
                     </div>
                     <div class="form-group">
                         <label for="name">NAME</label>
-                        <input class="form-control" type="text" name="name" id="name">
+                        <input class="form-control" type="text" name="name" id="name" required>
                     </div>
                     <div class="form-group">
                         <label for="age">AGE</label>
-                        <input class="form-control" type="text" name="age" id="age">
+                        <input class="form-control" type="text" name="age" id="age" required>
                     </div>
 
                     <button type="submit" class="btn btn-primary">Insert</button>

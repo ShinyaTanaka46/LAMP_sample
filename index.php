@@ -43,17 +43,17 @@ try {
     <div class="containar">
         <?php if($_GET['fg'] == 1) {?>
             <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                Prosessing is complete .<strong>Success!!</strong>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                    <span aria-hidden="true">&times;</span>
                 </button>
             </div>
         <?php} else if($_GET['fg'] == 2) {?>
             <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                Prosessing is complete .<strong>Failed!!</strong>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                 </button>
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
         <?php}?>
     </div>

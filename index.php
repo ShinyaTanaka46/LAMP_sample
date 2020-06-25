@@ -41,12 +41,20 @@ try {
     </div>
 
     <div class="containar">
-        <?php 
-        if($_GET['fg'] == 1) {?>
-            <p>success</p>
-        <?php} 
-        else if($_GET['fg'] == 2) {?>
-            <p>failed</p>
+        <?php if($_GET['fg'] == 1) {?>
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        <?php} else if($_GET['fg'] == 2) {?>
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                 </button>
+            </div>
         <?php}?>
     </div>
 

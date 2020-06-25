@@ -96,7 +96,22 @@ try {
                 </form>
             </div>
             <div id="tab3" class="tab-pane">
-                sample3
+            <form class="mt-5" action="./update.php" method="POST">
+                    <div class="form-group">
+                        <label for="id">ID</label>
+                        <input class="form-control" type="text" name="id" id="id" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">NAME</label>
+                        <input class="form-control" type="text" name="name" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">AGE</label>
+                        <input class="form-control" type="text" name="age" id="age" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Insert</button>
+                </form>
             </div>
             <div id="tab4" class="tab-pane">
                 sample4

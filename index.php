@@ -40,6 +40,16 @@ try {
         </div>
     </div>
 
+    <div class="containar">
+        <?php 
+        if($_GET['fg'] == 1) {
+            <p>success</p>
+        } 
+        else if($_GET['fg'] == 2) {
+            <p>failed</p>
+        }?>
+    </div>
+
     <div class="container">
         <ul class="nav nav-tabs">
             <li class="nav-item">

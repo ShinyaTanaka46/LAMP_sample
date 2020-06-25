@@ -42,12 +42,12 @@ try {
 
     <div class="containar">
         <?php 
-        if($_GET['fg'] == 1) {
+        if($_GET['fg'] == 1) {?>
             <p>success</p>
-        } 
-        else if($_GET['fg'] == 2) {
+        <?php} 
+        else if($_GET['fg'] == 2) {?>
             <p>failed</p>
-        }?>
+        <?php}?>
     </div>
 
     <div class="container">
